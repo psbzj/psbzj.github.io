@@ -26,6 +26,18 @@ ul li {
     background-color: rgba(240, 246, 255, 0.13);
 }
 
+.card {
+    background-color: rgba(1, 56, 1, 0.295);
+}
+
+img {
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
 #resume-dl{
     min-height:100px;
     margin: 1rem 0;
